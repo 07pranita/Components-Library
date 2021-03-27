@@ -1,0 +1,31 @@
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-brand{
+
+}
+.nav-pills a{
+    /* color: var(--white); */
+    font-size: 20px;
+    padding: 0.6rem;
+    text-decoration: none;
+    position: relative;
+    top: 1.8rem;
+    margin: 0.4rem;
+    border-radius: 10%;
+    border: 1px solid white;
+}
+.nav-pills a:hover {
+    background-color: #f7bb08;
+    /* color: black; */
+}
+
